@@ -9,6 +9,7 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration)
 
+
 // replace the value below with the Telegram token you receive from @BotFather
 const token = process.env.TELEGRAM_API_KEY
 
